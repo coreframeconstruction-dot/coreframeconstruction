@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0b2c3d;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.lang-switch button {
+    margin: 10px 5px;
+    padding: 6px 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.services .service-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.services .service-box div {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    font-weight: bold;
+}
+
+.contact {
+    background: #0b2c3d;
+    color: #fff;
+}
+
+footer {
+    background: #081f2b;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
